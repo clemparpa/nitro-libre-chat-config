@@ -1,7 +1,7 @@
 version: 1.2.4
 
 cache: true
-fileStrategy: "${FILE_STRATEGY}"
+fileStrategy: "s3"
 
 registration:
   socialLogins:
