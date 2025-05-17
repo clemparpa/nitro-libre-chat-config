@@ -15,11 +15,12 @@ endpoints:
       iconURL: "https://github.com/danny-avila/LibreChat/raw/main/docs/assets/LibreChat.svg"
       models: 
         default: 
-          - "mistral-medium-latest"
-        fetch: true
+          - "mistral/mistral-medium-latest"
+          - "mistral/mistral-small-latest"
+        fetch: false
       titleConvo: true
-      titleModel: "current_model"
+      titleModel: "mistral/mistral-small-latest"
       summarize: true
-      summaryModel: "current_model"
+      summaryModel: "mistral/mistral-small-latest"
       forcePrompt: false
       titleMessageRole: "user"
