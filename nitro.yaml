@@ -12,7 +12,7 @@ endpoints:
     - name: "Nitro"
       apiKey: "user_provided"
       baseURL: "${NitroRouterURL}"
-      iconURL: "https://github.com/danny-avila/LibreChat/raw/main/docs/assets/LibreChat.svg"
+      iconURL: "https://github.com/danny-avila/LibreChat/raw/main/client/public/assets/logo.svg"
       models: 
         default: 
           - "mistral/mistral-medium-latest"
